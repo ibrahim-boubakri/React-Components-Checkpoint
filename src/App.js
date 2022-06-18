@@ -1,13 +1,14 @@
 import React from "react";
-import ProfilePhoto from "./component/profile/ProfilePhoto";
-import FullName from "./component/profile/FullName";
-import Address from "./component/profile/Address";
+import Profile from "./Profile/Profile";
+
 
 const App = () => (
- <>
-   <ProfilePhoto/>
-   <FullName/>
-   <Address/>
- </>
+
+  <div>
+   <Profile fullName="Ibrahim Boubakri" />
+   <Profile  bio="xxxxxxxxxxx" />
+   <Profile  profession="IT Engineer"/>
+   
+   </div>
 );
 export default App;
